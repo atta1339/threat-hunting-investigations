@@ -35,3 +35,4 @@
 
 1. **Short-Term Containment:** Block identified IOCs at the perimeter firewall/proxy and isolate the affected host via EDR.
 2. **Long-Term Hardening:** Implement email attachment filtering for compressed/executable extensions and enable Attack Surface Reduction (ASR) rules.
+* [Case 01: Emotet Traffic Analysis](Case-01-Emotet-Traffic-Analysis/README.md)
