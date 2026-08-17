@@ -50,9 +50,3 @@ A network anomaly alert flagged suspicious outbound HTTP GET requests containing
    * Disable Office VBA macros globally via Group Policy Object (GPO) for non-essential user groups.
    * Enforce PowerShell Constrained Language Mode and ScriptBlock Logging (Event ID 4104).
    * Apply Attack Surface Reduction (ASR) rules to prevent Office applications from spawning child processes.
-
-## Root Cause & Mitigation Recommendations
-
-1. **Short-Term Containment:** Block identified IOCs at the perimeter firewall/proxy and isolate the affected host via EDR.
-2. **Long-Term Hardening:** Implement email attachment filtering for compressed/executable extensions and enable Attack Surface Reduction (ASR) rules.
-* [Case 01: Emotet Traffic Analysis](Case-01-Emotet-Traffic-Analysis/README.md)
